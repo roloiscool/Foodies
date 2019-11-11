@@ -4,4 +4,9 @@ title{color:green;
   back-ground:black;
   font-size:20em}
 
+#nav-bar:hover {
+  transform: scale(1.5);
+}
+
+
 </style>

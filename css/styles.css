@@ -1,3 +1,10 @@
+body {
+  background-color: rgb(174, 217, 249);
+  text-align: center;
+}
 h1 {
-  color: rgb(51, 238, 255);
+  font-size: 5em;
+}
+h2 {
+  font-size: 2em;
 }

@@ -8,3 +8,7 @@ h1 {
 h2 {
   font-size: 2em;
 }
+
+.col-sm:hover{
+  transform: scale(1.5);
+} 

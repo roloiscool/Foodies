@@ -8,6 +8,12 @@ h1 {
 h2 {
   font-size: 2em;
 }
+
+.nav-bar {
+  background-color: white;
+  border-bottom: 3px solid #A9A9A9;
+}
+
 .col-sm:hover{
   transform: scale(1.5);
 }

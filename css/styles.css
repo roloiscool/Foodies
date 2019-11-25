@@ -10,7 +10,6 @@ h2 {
   font-size: 3em;
   font-family: 'Baskervville', serif;
 }
-
 h3 {
   font-family: 'Baskervville', serif;
 }
@@ -27,21 +26,13 @@ a{
 ul {
   border: 1px solid #555;
 }
-
-
 .nav-bar {
   background-color: white;
   border-bottom: 3px solid #A9A9A9;
-
 }
-
 .col-4:hover{
   transform: scale(1.5);
 }
-
-/* width: 100%;
-} */
-
 #contact-us {
   background: white;
   padding: 10px;
@@ -63,7 +54,6 @@ ul {
   text-align: left;
   width: 50%;
   vertical-align: middle;
-
 }
 input[type="submit"] {
   background: #87CEEB;
@@ -110,25 +100,22 @@ textarea {
   width: 200px;
 }
 .carousel-inner img {
-      width: 1300px;
-      height:400px;
-  }
-  .overlay {
-    color:#fff;
-    position:absolute;
-    z-index:12;
-    top:50%;
-    left:0;
-    width:100%;
-    text-align:center;
-     text-shadow: 2px 2px #1A3F5D;
-  }
-
-  .fix-width{
-    width: 200px;
-  }
-
-  .fix-width-asia {
-    width: 300px;
-
-  }
+  width: 1300px;
+  height:400px;
+}
+.overlay {
+  color:#fff;
+  position:absolute;
+  z-index:12;
+  top:50%;
+  left:0;
+  width:100%;
+  text-align:center;
+  text-shadow: 2px 2px #1A3F5D;
+}
+.fix-width{
+  width: 200px;
+}
+.fix-width-asia {
+  width: 300px;
+}

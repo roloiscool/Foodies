@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <title>Foodies around the World</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Baskervville|Calistoga&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   </head>
 
   <body>
 
-    <div>
+
+    <div class="nav-bar" id="bar">
         <ul class="nav justify-content-center">
       <li class="nav-item">
         <a class="nav-link active" href="index.html">Home</a>
@@ -31,16 +34,19 @@
       </li>
     </ul>
     </div>
+
     <br>
+
     <div>
       <h1>Foodies around the World</h1>
       <br>
       <h2>Find out about food from all over the world!</h2>
     </div>
+
     <br>
-    <p>
+    <h4>
       Please click on a continent to learn more about its food!
-    </p>
+    </h4>
 
     <div class="container">
       <div class="row">
@@ -51,12 +57,12 @@
         </div>
         <div class="col-4">
           <a href="europe.html">
-          <img src="./Europe.png" alt="Outline of Europe" >
+          <img src="./images/europe-map.png" alt="Outline of Europe">
           </a>
         </div>
         <div class="col-4">
           <a href="#Asia">
-          <img src="./Asia.png" alt="Outline of Asia" >
+          <img src="./images/asia-map.png" alt="Outline of Asia">
           </a>
         </div>
     </div>
@@ -65,25 +71,26 @@
       <div class="row">
         <div class="col-4">
           <a href="#South-America">
-          <img src="./South America.png" alt="Outline of South America" >
+          <img src="./images/south-america-map.png" alt="Outline of South America">
           </a>
         </div>
         <div class="col-4">
           <a href="#Africa">
-          <img src="./Africa.png" alt="Outline of Africa" >
+          <img src="./images/africa-map.png" alt="Outline of Africa">
           </a>
         </div>
         <div class="col-4">
           <a href="#Australia">
-          <img src="./Australia.png" alt="Outline of Australia">
+          <img src="./images/oceania-map.png" alt="Outline of Australia">
           </a>
         </div>
     </div>
+
     <br>
-    <p>
+    <h4>
       If you would like to contribute a food photo for our website or contact us with additional information about the food from a
       particular region please use the contact form below:
-    </p>
+    </h4>
 
    <form id="contact-us">
       <div class="row-tab">
@@ -102,14 +109,25 @@
       </div>
       <div class="row-tab">
           <div class="label-contact">
-          <label>Feel free to message or send your images: <label>
+          <label>Feel free to message or send your images here: </label>
       </div>
           <div class="input-contact">
-          <textarea row="4" cols="40" placeholder="Enter your message here...">
+          <textarea row="4" cols="25" placeholder="Enter your message here...">
           </textarea>
       </div>
              <input type="submit">
     </form>
+
+    <footer>
+      <div class="socials">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href='#' class="fa fa-instagram"></a>
+
+      </div>
+    </footer>
 
   </body>
 

@@ -37,6 +37,9 @@ ul {
 .col-sm:hover{
   transform: scale(1.5);
 }
+
+  width: 100%;
+}
 #contact-us {
   background: #59ACF2;
   padding: 10px;
@@ -118,3 +121,4 @@ textarea {
     text-align:center;
      text-shadow: 2px 2px #1A3F5D;
   }
+

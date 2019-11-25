@@ -122,3 +122,6 @@ textarea {
      text-shadow: 2px 2px #1A3F5D;
   }
 
+  .container {
+    max-width: 200px; 
+  }

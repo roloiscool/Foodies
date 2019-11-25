@@ -3,20 +3,40 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 5em;
+  font-size: 6em;
+  font-family: 'Baskervville', serif;
 }
 h2 {
-  font-size: 2em;
+  font-size: 3em;
+  font-family: 'Baskervville', serif;
 }
+h3 {
+  font-family: 'Baskervville', serif;
+}
+h4{
+font-size: 20px;
+  font-family: 'Baskervville', serif;
+}
+p {
+  font-family: 'Baskervville', serif;
+}
+a{
+  color: black;
+}
+ul {
+  border: 1px solid #555;
+}
+
 .col-sm:hover{
   transform: scale(1.5);
 }
 #contact-us {
-  background-color: white;
+  background: #59ACF2;
   padding: 10px;
-  border: 1px solid;
   width: 40%;
   margin: 0 auto;
+  font-family: 'Baskervville', serif;
+  border-style: double;
 }
 .label-contact {
  display: inline-block;
@@ -31,6 +51,7 @@ h2 {
   text-align: left;
   width: 50%;
   vertical-align: middle;
+
 }
 input[type="submit"] {
   background: #87CEEB;
@@ -70,3 +91,23 @@ input[type="submit"] {
   padding: 20px;
   float: right;
 }
+#bar {
+  background-color: #59ACF2;
+}
+textarea {
+  width: 200px;
+}
+.carousel-inner img {
+      width: 1300px;
+      height:400px;
+  }
+  .overlay {
+    color:#fff;
+    position:absolute;
+    z-index:12;
+    top:50%;
+    left:0;
+    width:100%;
+    text-align:center;
+     text-shadow: 2px 2px #1A3F5D;
+  }
